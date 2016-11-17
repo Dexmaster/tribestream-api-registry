@@ -11,7 +11,8 @@ angular.module('website-components', [
     'website-components-tip',
     'website-components-markdown',
     'website-components-diff',
-    'website-components-fab'
+    'website-components-fab',
+    'tomitribe-button'
 ])
 
     .directive('tribeCheckbox', ['$timeout', function ($timeout) {

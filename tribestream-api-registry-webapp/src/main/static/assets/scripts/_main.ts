@@ -1,5 +1,6 @@
 import './_components.ts';
 import './_components_diff.ts';
+import 'angular-tomitribe-button';
 import './_components_fab.ts';
 import './_components_field_actions.ts';
 import './_components_filters.ts';
@@ -107,6 +108,9 @@ angular.module('tribe-main', [
                             version: $routeParams.version
                         };
                     }]
+                })
+                .when('/demo_components', {
+                    template: require('../templates/page_demo_components.jade')
                 })
                 .when('/login', {
                     template: require('../templates/page_login.jade')

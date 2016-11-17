@@ -57,7 +57,7 @@ module.exports = {
                 loader: 'file?name=assets/[name]_[hash].[ext]'
             },
             {
-                test: /\.sass$/,
+                test: /\.(sass|scss)$/,
                 loader: "style-loader!css-loader!postcss-loader!sass-loader"
             },
             {

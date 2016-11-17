@@ -1,9 +1,9 @@
 module _components_fab {
     angular
         .module('website-components-fab', [])
-        .directive('tomiFab', tomiFab)
-        .directive('tomiFabTrigger', tomiFabTrigger)
-        .directive('tomiFabActions', tomiFabActions);
+        .directive('tomiFab', tomiFab);
+       // .directive('tomiFabTrigger', tomiFabTrigger)
+       // .directive('tomiFabActions', tomiFabActions);
 
     function tomiFab()
     {
