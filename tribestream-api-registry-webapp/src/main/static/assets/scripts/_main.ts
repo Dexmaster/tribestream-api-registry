@@ -1,5 +1,6 @@
 import './_components.ts';
 import './_components_diff.ts';
+import './_components_fab.ts';
 import './_components_field_actions.ts';
 import './_components_filters.ts';
 import './_components_markdown.ts';

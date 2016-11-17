@@ -1,7 +1,6 @@
 module _components_fab {
-
     angular
-        .module('website-components-fab')
+        .module('website-components-fab', [])
         .directive('tomiFab', tomiFab)
         .directive('tomiFabTrigger', tomiFabTrigger)
         .directive('tomiFabActions', tomiFabActions);
@@ -10,7 +9,7 @@ module _components_fab {
     {
         return {
             restrict: 'E',
-            templateUrl: require('../templates/component_fab.jade'),
+            template: require('../templates/component_fab.jade'),
             scope: true,
             link: link,
             controller: tomiFabController,
@@ -46,7 +45,7 @@ module _components_fab {
         return {
             restrict: 'E',
             require: '^tomiFab',
-            templateUrl: require('../templates/component_fab-trigger.html'),
+            template: require('../templates/component_fab-trigger.jade'),
             transclude: true,
             replace: true
         };
@@ -57,7 +56,7 @@ module _components_fab {
         return {
             restrict: 'E',
             require: '^tomiFab',
-            templateUrl: require('../templates/component_fab-actions.html'),
+            template: require('../templates/component_fab-actions.jade'),
             link: link,
             transclude: true,
             replace: true

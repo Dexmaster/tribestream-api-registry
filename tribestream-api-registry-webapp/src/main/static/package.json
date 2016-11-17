@@ -19,6 +19,7 @@
     "angular-cookies": "1.5.8",
     "angular-resource": "1.5.8",
     "angular-route": "1.5.8",
+    "bourbon": "^4.2.7",
     "ngstorage": "0.3.11"
   },
   "devDependencies": {

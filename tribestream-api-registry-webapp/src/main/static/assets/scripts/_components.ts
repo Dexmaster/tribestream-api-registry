@@ -10,7 +10,8 @@ angular.module('website-components', [
     'website-components-text',
     'website-components-tip',
     'website-components-markdown',
-    'website-components-diff'
+    'website-components-diff',
+    'website-components-fab'
 ])
 
     .directive('tribeCheckbox', ['$timeout', function ($timeout) {
